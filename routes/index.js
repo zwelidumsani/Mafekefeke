@@ -6,4 +6,8 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Mafekefeke' });
 });
 
+router.get('/play', function(req, res, next){
+	 res.render('playvideo');
+});
+ 
 module.exports = router;

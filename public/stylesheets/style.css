@@ -49,12 +49,19 @@ nav{
 	 margin-right: 25px;
 }
 
+.nav-left h3{
+	 font-weight:600;
+}
+	 
+
+
 .nav-left .logo{
 	 width: 130px;
+	 padding-left:16px;
 }
 
 .nav-middle .mic-icon {
-	 width: 15px;
+	 width: 22px;
 }
 
 .nav-middle .search-box{
@@ -72,7 +79,7 @@ nav{
 }
 
 .nav-middle .search-box img{
-	 width: 15px;
+	 width: 22px;
 }
 
 /*------------sidebar------------------------------*/
@@ -204,4 +211,38 @@ nav{
 	font-weight:600;
 	display: block;
 	margin-bottom:5px;
+}
+
+@media (max-width:900px){
+	
+	 .menu{
+		 display:none;
+		 
+	 }
+	 .sidebar{
+		 display:none;
+	 }
+	 .container, .large-container{
+		 padding-left: 5%;
+		 padding-right: 5%;
+	 }
+	 .nav-right img{
+		 display:none;
+	 }
+	 .nav-right .user-icon{
+		 display: block;
+		 width: 30px;
+	 }
+	 nav-middle .search-box input{
+		 width: 100px;
+	 }
+	 .nav-middle .mic-icon{
+		 display:none;
+	 }
+	 .logo{
+		 width:90px;
+	 }
+	 
+	 
+	 
 }
